@@ -58,4 +58,4 @@ function validatePassword(pass) {
   return validation;
 };
 
-console.log (validatePassword("duttttoonnn22UI"))  
+console.log (validatePassword("it work"))  
