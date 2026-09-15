@@ -1,0 +1,40 @@
+html {
+  height: 100%;
+
+.popup {
+  visiblity: hidden;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.popupText {
+  visibility: hidden;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 15px;
+  position:fixed;
+  bottom: 0;
+  right: 0;
+  
+}
+
+.popupButton {
+  font-family: arial;
+  color: black;
+  background-color: white;
+  border-radius: 10px;
+  padding: 5px;
+  border: none;
+  text-decoration: none;
+  float: right;
+  width: 100%;
+}
+
+ .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
